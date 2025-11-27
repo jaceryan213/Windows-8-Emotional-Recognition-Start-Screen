@@ -1,0 +1,221 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Metro UI Coping Strategies</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    body {
+      margin: 0;
+      font-family: "Segoe UI", sans-serif;
+      background: url('images/wp3456224.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: #fff;
+    }
+
+    h1 {
+      padding: 20px;
+      font-weight: 600;
+      font-size: 1.5rem;
+    }
+
+    .start-screen {
+      display: grid;
+      grid-template-columns: repeat(6, 130px);
+      grid-auto-rows: 130px;
+      gap: 15px;
+      padding: 20px;
+      justify-content: start;
+    }
+
+    .tile {
+      position: relative;
+      overflow: hidden;
+      cursor: pointer;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      font-weight: 600;
+      text-decoration: none;
+      box-sizing: border-box;
+      border-radius: 0;
+      padding: 0;
+    }
+
+    .small { grid-column: span 1; grid-row: span 1; }
+    .medium { grid-column: span 2; grid-row: span 1; }
+    .wide { grid-column: span 2; grid-row: span 2; }
+
+    .blue { background: #0078d7; }
+    .green { background: #107c10; }
+    .red { background: #d13438; }
+    .purple { background: #5c2d91; }
+    .orange { background: #ca5010; }
+    .teal { background: #038387; }
+    .pink { background: #e3008c; }
+
+    .tile-content {
+      position: absolute;
+      width: 100%;
+      animation: enterText 12s linear infinite;
+    }
+
+    @keyframes enterText {
+      0% { transform: translateY(100%); opacity: 0; }
+      10% { transform: translateY(0); opacity: 1; }
+      40% { transform: translateY(0); opacity: 1; }
+      50% { transform: translateY(-100%); opacity: 0; }
+      100% { transform: translateY(-100%); opacity: 0; }
+    }
+
+    .tile-content div {
+      padding: 10px;
+    }
+  .auto-style1 {
+	  font-family: "Segoe UI Light";
+  }
+  </style>
+</head>
+<body>
+  <h1 class="auto-style1">Emotional Regulation Strategies — Metro UI</h1>
+  <div class="start-screen">
+    <a href="https://everydayspeech.com/blog-posts/general/self-regulation-strategies-activities/" class="tile small blue">
+      <div class="tile-content">
+        <div>🌬️ Box Breathing</div>
+        <div>Inhale 4, Hold 4, Exhale 4, Hold 4</div>
+        <div>Repeat 4 cycles</div>
+      </div>
+    </a>
+
+    <a href="https://www.understood.org/en/articles/grounding-techniques" class="tile medium green">
+      <div class="tile-content">
+        <div>🪨 5-4-3-2-1 Grounding</div>
+        <div>See 5, Touch 4, Hear 3, Smell 2, Taste 1</div>
+        <div>Anchor attention</div>
+      </div>
+    </a>
+
+    <a href="https://www.apa.org/topics/stress/body" class="tile wide red">
+      <div class="tile-content">
+        <div>🏃 Micro-Move Reset</div>
+        <div>Stretch, shake, roll shoulders</div>
+        <div>Pair with breathing</div>
+      </div>
+    </a>
+
+    <a href="https://www.verywellmind.com/how-music-therapy-can-help-4171246" class="tile small purple">
+      <div class="tile-content">
+        <div>🎧 Music Shift</div>
+        <div>Tempo transition</div>
+        <div>Calm playlist</div>
+      </div>
+    </a>
+
+    <a href="https://everydayspeech.com/sel-implementation/enhancing-emotional-awareness-a-guide-to-iep-goals-for-identifying-emotions/" class="tile medium orange">
+      <div class="tile-content">
+        <div>🧠 Emotion Wheel</div>
+        <div>Color zones</div>
+        <div>Intensity scale</div>
+      </div>
+    </a>
+
+    <a href="https://www.mindfulschools.org/blog/mindful-reflection/" class="tile wide teal">
+      <div class="tile-content">
+        <div>📋 Quick Reflection</div>
+        <div>What happened?</div>
+        <div>What I felt</div>
+        <div>What helped</div>
+      </div>
+    </a>
+
+    <a href="https://everydayspeech.com/sel-implementation/incorporating-iep-goals-to-foster-coping-skills-in-individuals/" class="tile small pink">
+      <div class="tile-content">
+        <div>🤝 Ask for Help</div>
+        <div>“I’m feeling X”</div>
+        <div>“Could you help with Y?”</div>
+      </div>
+      <!-- Inside <body> -->
+<h1>Emotional Regulation Strategies — Metro UI</h1>
+
+<!-- 🌀 Quick Tools -->
+<h2 style="padding: 10px 20px; font-size: 1.2rem; color: #ccc;">🌀 Quick Tools</h2>
+<div class="start-screen">
+  <!-- Box Breathing -->
+  <a href="https://everydayspeech.com/blog-posts/general/self-regulation-strategies-activities/" class="tile small blue">
+    <div class="tile-content">
+      <div>🌬️ Box Breathing</div>
+      <div>Inhale 4, Hold 4, Exhale 4, Hold 4</div>
+      <div>Repeat 4 cycles</div>
+    </div>
+  </a>
+
+  <!-- Grounding -->
+  <a href="https://www.understood.org/en/articles/grounding-techniques" class="tile medium green">
+    <div class="tile-content">
+      <div>🪨 5-4-3-2-1 Grounding</div>
+      <div>See 5, Touch 4, Hear 3, Smell 2, Taste 1</div>
+      <div>Anchor attention</div>
+    </div>
+  </a>
+
+  <!-- Movement -->
+  <a href="https://www.apa.org/topics/stress/body" class="tile wide red">
+    <div class="tile-content">
+      <div>🏃 Micro-Move Reset</div>
+      <div>Stretch, shake, roll shoulders</div>
+      <div>Pair with breathing</div>
+    </div>
+  </a>
+
+  <!-- Music -->
+  <a href="https://www.verywellmind.com/how-music-therapy-can-help-4171246" class="tile small purple">
+    <div class="tile-content">
+      <div>🎧 Music Shift</div>
+      <div>Tempo transition</div>
+      <div>Calm playlist</div>
+    </div>
+  </a>
+</div>
+
+<!-- 🧠 Reflection & Awareness -->
+<h2 style="padding: 10px 20px; font-size: 1.2rem; color: #ccc;">🧠 Reflection & Awareness</h2>
+<div class="start-screen">
+  <!-- Emotion Wheel -->
+  <a href="https://everydayspeech.com/sel-implementation/enhancing-emotional-awareness-a-guide-to-iep-goals-for-identifying-emotions/" class="tile medium orange">
+    <div class="tile-content">
+      <div>🧠 Emotion Wheel</div>
+      <div>Color zones</div>
+      <div>Intensity scale</div>
+    </div>
+  </a>
+
+  <!-- Quick Reflection -->
+  <a href="https://www.mindfulschools.org/blog/mindful-reflection/" class="tile wide teal">
+    <div class="tile-content">
+      <div>📋 Quick Reflection</div>
+      <div>What happened?</div>
+      <div>What I felt</div>
+      <div>What helped</div>
+    </div>
+  </a>
+</div>
+
+
+<h2 style="padding: 10px 20px; font-size: 1.2rem; color: #ccc;">🤝 Support & Connection</h2>
+<div class="start-screen">
+  <!-- Ask for Help -->
+  <a href="https://everydayspeech.com/sel-implementation/incorporating-iep-goals-to-foster-coping-skills-in-individuals/" class="tile small pink">
+    <div class="tile-content">
+      <div>🤝 Ask for Help</div>
+      <div>“I’m feeling X”</div>
+      <div>“Could you help with Y?”</div>
+    </div>
+  </a>
+</div>
+
+    </a>
+  </div>
+</body>
+</html>
